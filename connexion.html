@@ -1,0 +1,171 @@
+<!--
+    ________ _____________________________  _______________   ____
+\______ \\______   \_   _____/\______ \ \_   _____/\   \ /   /
+ |    |  \|       _/|    __)_  |    |  \ |    __)_  \   Y   / 
+ |    `   \    |   \|        \ |    `   \|        \  \     /  
+/_______  /____|_  /_______  //_______  /_______  /   \___/   
+        \/       \/        \/         \/        \/            
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>All in one - Mobile WEB Ui template</title>
+    <!-- Fichier de police Google. Si vous voulez, vous pouvez changer.-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+
+    <!-- Fontawesome police fichier css -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <!-- N'utilisez que l'action animée. Si vous n'utilisez pas d'animation, vous n'avez pas besoin d'ajouter -->
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <!-- Fichier css du template Allinone -->
+    <link rel="stylesheet" type="text/css" href="css/allinone.css">
+</head>
+
+<body>
+    <div class="wrapper with-bg-image">
+        <div class="nav-menu">
+            <!--Les couleurs sont definies dans notre fichier de style allinone.css-->
+            <nav class="menu menubackgroundred">
+                <!-- Logo de notre template-->
+                <div class="nav-header">
+                    <a href="home.html"><img src="img/app-logo.png" width="160"></a>
+                </div>
+                <!-- Fin Logo de notre template -->
+
+                <!-- Debut du menu de navigation -->
+                <div class="nav-container">
+                    <ul class=" main-menu ">
+                        <li class="active ">
+                            <a href="index.html"><i class="fa fa-home "></i> Accueil</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0); "><i class="fa fa-sign-in "></i> Pages<span class="fa fa-angle-down "></span></a>
+                            <ul>
+                                <li><a href="connexion.html" data-loader="show ">Connexion</a></li>
+                                <li><a href="inscription.html" data-loader="show ">Inscription</a></li>
+                                <li><a href="mon-profil.html" data-loader="show ">Profil utilisateur</a></li>
+                                <li><a href="contact.html" data-loader="show ">Contact</a></li>
+                                <li><a href="mdp-oublie.html" data-loader="show ">Mot de passe oublié</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0); "><i class="fa fa-file-image-o "></i> Images <span class="fa fa-angle-down "></span></a>
+                            <ul>
+                                <li><a href="galerie.html" data-loader="show ">Galerie</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="# "><i class="fa fa-file-text-o "></i> Blog <span class="fa fa-angle-down "></span></a>
+                            <ul>
+                                <li><a href="liste-post.html" data-loader="show ">Liste </a></li>
+                                <li><a href="details-post.html" data-loader="show ">Details</a></li>
+                                <li><a href="post-auteur.html" data-loader="show ">Auteur</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="# "><i class="fa fa-shopping-basket "></i> Boutique <span class="fa fa-angle-down "></span></a>
+                            <ul>
+                                <li><a href="liste-produits.html" data-loader="show ">Liste produits</a></li>
+                                <li><a href="details-produits.html" data-loader="show ">Details produits</a></li>
+                                <li><a href="mon-panier.html" data-loader="show ">Mon Panier</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0); "><i class="fa fa-magic "></i> Slider <span class="fa fa-angle-down "></span></a>
+                            <ul>
+                                <li><a href="slider-fullscreen.html" data-loader="show ">Slider Fullscreen</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Fin Menu de navigation -->
+            </nav>
+        </div>
+        <div class="wrapper-inline">
+            <!-- Début de la zone d'en-tête-->
+            <header>
+                <!--Classe supplementaire-->
+                <h1 class="page-title txt-red ">CONNEXION</h1>
+                <div class="navi-menu-button ">
+                    <em></em>
+                    <em></em>
+                    <em></em>
+
+                </div>
+            </header>
+            <!-- Fin de la zone d'en-tête -->
+            <!-- Debut contenu de la page -->
+            <main>
+
+                <section class="container">
+                    <div class="form-divider"></div>
+
+                    <div class="formulaire">
+                        <a href="javascript:void(0);" class="button circle block blue"> <i class="fa fa-facebook"></i> Connexion avec FACEBOOK</a>
+                    </div>
+                    <div class="formulaire">
+                        <a href="javascript:void(0);" class="button circle block red"><i class="fa fa-google"></i> Connexion avec GOOGLE</a>
+                    </div>
+
+                    <div class="form-divider"></div>
+                    <div class="form-label-divider"><span>OU</span></div>
+                    <div class="form-divider"></div>
+
+                    <div class="formulaire-group with-icons">
+                        <div class="formulaire no-padding">
+                            <!-- <i class="fa fa-envelope"></i> -->
+                            <input type="email" name="username" class="form-element" placeholder="Pseudo ou Nom d'utilisateur">
+                        </div>
+                        <div class="formulaire no-padding">
+                            <!-- <i class="fa fa-lock"></i> -->
+                            <input type="password" name="pass" class="form-element" placeholder="Mot de passe">
+                        </div>
+                    </div>
+
+                    <div class="formulaire txt-center">
+                        <a href="mdp-oublie.html" data-loader="show">Mot de passe oublié?</a>
+                    </div>
+
+                    <div class="form-divider"></div>
+
+                    <div class="formulaire">
+                        <a href="Javascript:void(0);" class="button circle block green">Connexion</a>
+                    </div>
+
+                    <div class="formulaire txt-center">
+                        Vous n'avez pas de compte ? <a href="inscription.html" data-loader="show">S'inscrire</a>
+                    </div>
+
+                </section>
+            </main>
+            <!-- Fin Contenu de la page -->
+        </div>
+    </div>
+
+
+    <!-- Libraire Jquery. Cette librairie doit être sur toutes les pages -->
+    <script src="js/jquery-3.2.1.min.js "></script>
+    <!-- Script Javascript de allinone. Script requis sur toutes les pages -->
+    <script src="js/allinone.js "></script>
+
+</body>
+
+</html>
+
+
+<!--
+
+
+________ _____________________________  _______________   ____
+\______ \\______   \_   _____/\______ \ \_   _____/\   \ /   /
+|    |  \|       _/|    __)_  |    |  \ |    __)_  \   Y   / 
+|    `   \    |   \|        \ |    `   \|        \  \     /  
+/_______  /____|_  /_______  //_______  /_______  /   \___/   
+      \/       \/        \/         \/        \/            
+
+
+-->

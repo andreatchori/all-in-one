@@ -1,0 +1,248 @@
+<!--
+    ________ _____________________________  _______________   ____
+\______ \\______   \_   _____/\______ \ \_   _____/\   \ /   /
+ |    |  \|       _/|    __)_  |    |  \ |    __)_  \   Y   / 
+ |    `   \    |   \|        \ |    `   \|        \  \     /  
+/_______  /____|_  /_______  //_______  /_______  /   \___/   
+        \/       \/        \/         \/        \/            
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>All in one - Mobile WEB Ui template</title>
+    <!-- Fichier de police Google. Si vous voulez, vous pouvez changer.-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+
+    <!-- Fontawesome police fichier css -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <!-- N'utilisez que l'action animée. Si vous n'utilisez pas d'animation, vous n'avez pas besoin d'ajouter -->
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <!-- Fichier css du template Allinone -->
+    <link rel="stylesheet" type="text/css" href="css/allinone.css">
+</head>
+
+<body>
+    <div class="wrapper with-bg-image">
+        <div class="nav-menu">
+            <!--Les couleurs sont definies dans notre fichier de style allinone.css-->
+            <nav class="menu menubackgroundred">
+                <!-- Logo de notre template-->
+                <div class="nav-header">
+                    <a href="home.html"><img src="img/app-logo.png" width="160"></a>
+                </div>
+                <!-- Fin Logo de notre template -->
+
+                <!-- Debut du menu de navigation -->
+                <div class="nav-container">
+                    <ul class=" main-menu ">
+                        <li class="active ">
+                            <a href="index.html"><i class="fa fa-home "></i> Accueil</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0); "><i class="fa fa-sign-in "></i> Pages<span class="fa fa-angle-down "></span></a>
+                            <ul>
+                                <li><a href="connexion.html" data-loader="show ">Connexion</a></li>
+                                <li><a href="inscription.html" data-loader="show ">Inscription</a></li>
+                                <li><a href="mon-profil.html" data-loader="show ">Profil utilisateur</a></li>
+                                <li><a href="contact.html" data-loader="show ">Contact</a></li>
+                                <li><a href="mdp-oublie.html" data-loader="show ">Mot de passe oublié</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0); "><i class="fa fa-file-image-o "></i> Images <span class="fa fa-angle-down "></span></a>
+                            <ul>
+                                <li><a href="galerie.html" data-loader="show ">Galerie</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="# "><i class="fa fa-file-text-o "></i> Blog <span class="fa fa-angle-down "></span></a>
+                            <ul>
+                                <li><a href="liste-post.html" data-loader="show ">Liste </a></li>
+                                <li><a href="details-post.html" data-loader="show ">Details</a></li>
+                                <li><a href="post-auteur.html" data-loader="show ">Auteur</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="# "><i class="fa fa-shopping-basket "></i> Boutique <span class="fa fa-angle-down "></span></a>
+                            <ul>
+                                <li><a href="liste-produits.html" data-loader="show ">Liste produits</a></li>
+                                <li><a href="details-produits.html" data-loader="show ">Details produits</a></li>
+                                <li><a href="mon-panier.html" data-loader="show ">Mon Panier</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0); "><i class="fa fa-magic "></i> Slider <span class="fa fa-angle-down "></span></a>
+                            <ul>
+                                <li><a href="slider-fullscreen.html" data-loader="show ">Slider Fullscreen</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Fin Menu de navigation -->
+            </nav>
+        </div>
+        <div class="wrapper-inline">
+            <!-- Debut de la zone d'en-tête -->
+            <header>
+                <!-- Classe supplementaire -->
+                <a class="go-back-link" href="javascript:history.back();"><i class="fa fa-arrow-left"></i></a>
+                <h1 class="page-title">MON PANIER</h1>
+                <div class="navi-menu-button">
+                    <em></em>
+                    <em></em>
+                    <em></em>
+                </div>
+            </header>
+            <!-- Fin de la zone d'en-tête -->
+            <!-- Debut contenu de la page -->
+            <main>
+                <section class="container">
+                    <!--Debut Produit 1 -->
+                    <div class="expandable-item accordion" data-group="accordion1">
+                        <div class="expandable-header">
+                            <h3 class="list-title">Nom du produit</h3>
+                            <div class="list-item-extra">
+                                (2) x XOF20.00
+                            </div>
+                            <i class="list-arrow fa fa-angle-down"></i>
+                        </div>
+                        <div class="expandable-content">
+                            <div class="padding-content">
+                                <div class="form-row-group">
+                                    <div class="form-row no-padding">
+                                        <select class="form-element">
+											<option value="">Taille...</option>
+											<option value="S">Petite</option>
+											<option value="M" selected>Moyen</option>
+											<option value="L">Large</option>
+										</select>
+                                    </div>
+
+                                    <div class="form-row no-padding">
+                                        <select class="form-element">
+											<option value="">Nombre...</option>
+											<option value="1">1</option>
+											<option value="2" selected>2</option>
+											<option value="3">3</option>
+										</select>
+                                    </div>
+                                </div>
+                                <div class="form-mini-divider"></div>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took
+                            </div>
+                        </div>
+                    </div>
+                    <!--Fin Produit 1 -->
+
+                    <!--Debut Produit 2-->
+                    <div class="expandable-item accordion" data-group="accordion1">
+                        <div class="expandable-header">
+                            <h3 class="list-title">Nom du produit</h3>
+                            <div class="list-item-extra">
+                                (4) x XOF19.00
+                            </div>
+                            <i class="list-arrow fa fa-angle-down"></i>
+                        </div>
+                        <div class="expandable-content">
+                            <div class="padding-content">
+                                <div class="form-row-group">
+                                    <div class="form-row no-padding">
+                                        <select class="form-element">
+											<option value="">Taille...</option>
+											<option value="S" selected>Petite</option>
+											<option value="M">Moyen</option>
+											<option value="L">Large</option>
+										</select>
+                                    </div>
+
+                                    <div class="form-row no-padding">
+                                        <select class="form-element">
+											<option value="">Nombre...</option>
+											<option value="1" selected>1</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+										</select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Fin produit 2-->
+
+                    <!--Debut produit 3 -->
+                    <div class="expandable-item accordion" data-group="accordion1">
+                        <div class="expandable-header">
+                            <h3 class="list-title">Nom du produit</h3>
+                            <div class="list-item-extra">
+                                (10) x XOF15.00
+                            </div>
+                            <i class="list-arrow fa fa-angle-down"></i>
+                        </div>
+                        <div class="expandable-content">
+                            <div class="padding-content">
+                                <div class="form-row-group">
+                                    <div class="form-row no-padding">
+                                        <select class="form-element">
+											<option value="">Taille...</option>
+											<option value="S" selected>Petite</option>
+											<option value="M">Moyen</option>
+											<option value="L">Large</option>
+										</select>
+                                    </div>
+
+                                    <div class="form-row no-padding">
+                                        <select class="form-element">
+											<option value="">Nombre...</option>
+											<option value="1" selected>1</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+										</select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Fin produit 3-->
+
+                    <div class="form-mini-divider"></div>
+                    <a href="#" class="button circle block red"><i class="fa fa-shopping-basket"></i> Passer a la caisse</a>
+                    <div class="form-mini-divider"></div>
+
+                    <div class="form-divider"></div>
+                    <div class="form-label-divider"><span>Ou</span></div>
+                    <div class="form-divider"></div>
+
+                    <div class="txt-center">
+                        <a href="liste-produits.html">Continuer achat <i class="fa fa-arrow-right"></i></a>
+                    </div>
+                </section>
+            </main>
+            <!-- Fin contenu de la page -->
+        </div>
+    </div>
+    <!-- Libraire Jquery. Cette librairie doit être sur toutes les pages -->
+    <script src="js/jquery-3.2.1.min.js "></script>
+    <!-- Script Javascript de allinone. Script requis sur toutes les pages -->
+    <script src="js/allinone.js "></script>
+
+</body>
+
+</html>
+
+
+<!--
+
+
+________ _____________________________  _______________   ____
+\______ \\______   \_   _____/\______ \ \_   _____/\   \ /   /
+|    |  \|       _/|    __)_  |    |  \ |    __)_  \   Y   / 
+|    `   \    |   \|        \ |    `   \|        \  \     /  
+/_______  /____|_  /_______  //_______  /_______  /   \___/   
+      \/       \/        \/         \/        \/            
+
+
+-->
